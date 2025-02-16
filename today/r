@@ -1,0 +1,9 @@
+@RestController
+@RequestMapping("/api")
+public class MyController {
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello, World!";
+    }
+}

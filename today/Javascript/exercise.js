@@ -1,0 +1,33 @@
+// function array() {
+//   let arr = ["milk"];
+//   console.log(arr.push("milk"));
+//   //   arr.concat("bread", "apple");
+//   //   arr.pop();
+//   //   arr.sort();
+//   //   console.log(arr);
+// }
+// array();
+let rar = ["milk"];
+console.log(rar.push("bread"));
+console.log(rar);
+rar.push("apple");
+console.log(rar);
+rar.splice(1, 1, "banana", "egg");
+console.log(rar);
+rar.sort();
+console.log(rar.indexOf("milk"));
+console.log(rar);
+rar.concat("carrot");
+rar.splice(1, 1, "carrot", "lettuce");
+rar.splice(1, 0, "banana");
+console.log(rar);
+let rar2 = ["juice", "pop"];
+rar.concat(rar2);
+rar.concat(rar2);
+console.log(rar);
+rar.push("juice");
+rar.push("pop");
+rar.push("juice");
+rar.push("pop");
+console.log(rar);
+console.log(rar.indexOf("pop"));
